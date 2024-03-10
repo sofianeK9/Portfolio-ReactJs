@@ -5,7 +5,7 @@ import 'swiper/css';
 
 export default () => {
   return (
-    <div className='max-w-7xl m-auto'>
+    <div className='max-w-7xl m-auto my-20 '>
       <Swiper
         spaceBetween={50}
         slidesPerView={2}
@@ -13,28 +13,28 @@ export default () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <div >
+          <div className='px-20 '>
             <img className='h-24' src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-512.png" alt="" />
             <h1>Designer</h1>
             <q>lorem ipsum dolor sit amet</q>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className='px-20'>
             <img className='h-24' src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678130-profile-alt-4-512.png" alt="" />
             <h1>Designer</h1>
             <q>lorem ipsum dolor sit amet</q>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className='px-20'>
             <img className='h-24' src="https://cdn1.iconfinder.com/data/icons/user-avatar-20/64/54-woman-512.png" alt="" />
             <h1>Designer</h1>
             <q>lorem ipsum dolor sit amet</q>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className='px-20'>
             <img className='h-24' src="https://cdn1.iconfinder.com/data/icons/user-avatar-20/64/47-woman-512.png" alt="" />
             <h1>Designer</h1>
             <q>lorem ipsum dolor sit amet</q>

@@ -3,7 +3,7 @@ import ServicesItems from './ServicesItems'
 
 const Services = () => {
   return (
-    <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-12 max-w-7xl auto'> 
+    <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-12 max-w-7xl m-auto'> 
        <ServicesItems 
           title='Design' 
           description={"ajouter du texte ici pour dire que vous offrer un design pour leur business"} 
