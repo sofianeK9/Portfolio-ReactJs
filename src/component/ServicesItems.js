@@ -2,8 +2,8 @@ import React from "react";
 
 const ServicesItems = ({ image, title, description }) => {
   return (
-    <div className="justify-center mx-auto">
-      <div className="shadow-lg bg-white space-y-4 border p-4">
+    <div className="px-10">
+      <div className="shadow-lg bg-white space-y-4 border p-4 hover:bg-rose-100 rounded">
         <img className="h-12" src={image} alt="" />
         <h1 className="text-xl font-bold">{title}</h1>
         <p className="opacity-80">{description}</p>
